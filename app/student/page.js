@@ -252,7 +252,7 @@ function StudentDashboardInner() {
                   );
                 })}
               </div>
-              <div style={{marginTop:'1.5rem'}} className="card" style={{padding:'1.25rem'}}>
+              <div className="card" style={{marginTop:'1.5rem', padding:'1.25rem'}}>
                 <p className="body-md">Upload clear scans or photos. Accepted formats: PDF, JPG, PNG. Max 10MB per file.</p>
               </div>
             </div>
