@@ -425,7 +425,7 @@ export default function HomePage() {
               ].map((t, i) => (
                 <div key={i} className={`card trust-testimonial ${styles.testimonialCard}`}>
                   <div className={styles.testStars}>{'★'.repeat(t.stars)}</div>
-                  <p className={styles.testText}>"{t.text}"</p>
+                  <p className={styles.testText}>&quot;{t.text}&quot;</p>
                   <div className={styles.testAuthor}>
                     <div className={styles.testAvatar}>{t.name[0]}</div>
                     <div>
@@ -507,7 +507,7 @@ export default function HomePage() {
                       </div>
                     ))}
                     <div className="form-group" style={{marginBottom:'0.9rem'}}>
-                      <label className="form-label">I'm Interested In</label>
+                      <label className="form-label">I&apos;m Interested In</label>
                       <select className="form-input" value={formData.interest} onChange={set('interest')}>
                         <option value="">Select a program…</option>
                         {INTEREST_OPTIONS.map(o => <option key={o}>{o}</option>)}
