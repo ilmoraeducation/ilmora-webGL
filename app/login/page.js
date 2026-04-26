@@ -94,7 +94,7 @@ function LoginForm() {
             </form>
 
             {!isAdmin && (
-              <p className={styles.switchText}>Don't have an account? <Link href="/register">Register here</Link></p>
+              <p className={styles.switchText}>Don&apos;t have an account? <Link href="/register">Register here</Link></p>
             )}
             {isAdmin && (
               <p className={styles.adminNote}>Admin access is restricted to authorized ILMORA staff only.</p>
